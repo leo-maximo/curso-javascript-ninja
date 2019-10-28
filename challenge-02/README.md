@@ -9,26 +9,29 @@ Function  soma (x,y) {
 }
 
 // Declare uma variável que receba a invocação da função criada acima, passando dois números quaisquer por argumento, e somando `5` ao resultado retornado da função.
-?
+var calculo = soma (2,5) +5;
 
 // Qual o valor atualizado dessa variável?
-?
+calculo ;
 
 // Declare uma nova variável, sem valor.
-?
+var novavar;
 
 /*
 Crie uma função que adicione um valor à variável criada acima, e retorne a string:
     O valor da variável agora é VALOR.
 Onde VALOR é o novo valor da variável.
 */
-?
+function new () {
+novavar = 20;
+return " o valor da variavel agora é" "+novavar";
+}
 
 // Invoque a função criada acima.
-?
+new () ;
 
 // Qual o retorno da função? (Use comentários de bloco).
-?
+/* o valor da variavel agora e 20 */
 
 /*
 Crie uma função com as seguintes características:
@@ -37,19 +40,24 @@ Crie uma função com as seguintes características:
     Preencha todos os valores corretamente!
 3. O retorno da função deve ser a multiplicação dos 3 argumentos, somando `2` ao resultado da multiplicação.
 */
-?
+function newsoma( x,y,z) {
+if ( X===undefined , y===undefined, z===undefined) {
+return " preencha todos os campos corretamente!" }
+return x+y+z +2;
+}
 
 // Invoque a função criada acima, passando só dois números como argumento.
-?
+newsoma (2,5);
+
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
-?
+//preencha todos os campos corretamente!
 
 // Agora invoque novamente a função criada acima, mas passando todos os três argumentos necessários.
-?
+newsoma (2,5,6);
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
-?
+//15
 
 /*
 Crie uma função com as seguintes características:
